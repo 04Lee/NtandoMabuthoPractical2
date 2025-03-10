@@ -124,7 +124,15 @@ td {
 }
 .menu-item:hover {
         background-color: gray;
-    }/* Changes background color when hovered */
+}/* Changes background color when hovered */
+
+.text{
+    margin-left:25%;
+    text-align:center;
+    width:50%;
+}
+
+
 
 
 
