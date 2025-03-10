@@ -23,11 +23,5 @@ namespace NtandoMabuthoStudyGroupP2.Models
         [Display(Name = "MYLINK")]
         public string myLink { get; set; }
 
-
-        [Display(Name = "Current Age")]
-        public int Age { get; set; } = 0;
-
-        [Display(Name = "Living Status")]
-        public bool IsAlive { get; set; } = true;
     }
 }

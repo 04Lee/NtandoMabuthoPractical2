@@ -26,5 +26,9 @@ namespace NtandoMabuthoStudyGroupP2.Controllers
 
             return View();
         }
+        public ActionResult SimpleStart()
+        {
+            return View();
+        }
     }
 }

@@ -6,6 +6,13 @@
 
 <h2>StudentView</h2>
 
+<style>
+    .navbar-toggler {
+        background-color: aqua;
+        border: double;
+        box-sizing: border-box
+    }
+</style>
 
 
 
@@ -19,6 +26,7 @@
             <th>@Html.DisplayNameFor(model => model.Surname)</th>       <!-- So this will display the label for Surname -->
             <th>@Html.DisplayNameFor(model => model.Email)</th>         <!-- So this will display the label for Email -->
             <th>@Html.DisplayNameFor(model => model.myLink)</th>
+
         </tr>
     </thead>
 
@@ -44,7 +52,7 @@
             <td>
        
                 <a href="@(Url.IsLocalUrl(item.myLink) ? Url.Content(item.myLink) : item.myLink)"
-                   class="navbar-toggler" style="box-sizing:border-box" target="_blank">LINK</a>
+                   class="navbar-toggler" target="_blank">LINK</a>
 
             </td>
 

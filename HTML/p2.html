@@ -3,100 +3,80 @@
 <head>
     <meta charset="utf-8" />
     <title>Ntando Mchunu</title>
-    <style>
-        .menu {
-            background-color: red;
-            padding: 10px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around
-        }
-
-        body {
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-
-        h2 {
-            color: darkblue;
-            text-align: center;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        td {
-            background-color: #f9f9f9;
-        }
-
-        .containerB {
-            text-align: center;
-            border-block: 5px solid black;
-            border-left: 5px solid black;
-            border-right: 5px solid black;
-            border-bottom: 5px solid black;
-        }
-
-        .containerH {
-            text-align: center;
-            border-block: 5px solid black;
-            border-left: 5px solid black;
-            border-right: 5px solid black;
-            border-bottom: 5px solid black;
-        }
-
-        .containerM {
-            text-align: center;
-            border-block: 5px solid black;
-            border-left: 5px solid black;
-            border-right: 5px solid black;
-            border-bottom: 5px solid black;
-        }
-    </style>
 </head>
 <body>
+    <link rel="stylesheet" href="StyleSheet.css" />
     <header>
+        <h1>Person 2:Kamo Thape</h1> <!-- Name of the person, change as needed -->
         <nav>
             <ul class="menu">
-                <li><a href="index.html" class="menu-item">Home</a></li>
-                <li><a href="students.html" class="menu-item">All Students</a></li>
-                <li><a href="previouspage.html" class="menu-item">Back to Previous</a></li>
+                <li><a href="/Home/SimpleStart" class="menu-item">Home</a></li>
+                <li><a href="/People/StudentDisplay" class="menu-item">All Students</a></li>
                 <li><a href="p1.html" class="menu-item">Person1</a></li>
-                <li><a href="jane_doe.html" class="menu-item">Jane Doe</a></li>
-                <li><a href="jack_smith.html" class="menu-item">Jack Smith</a></li>
-                <li><a href="anna_lee.html" class="menu-item">Anna Lee</a></li>
-                <li><a href="lucas_taylor.html" class="menu-item">Lucas Taylor</a></li>
+                <li><a href="p2.html" class="menu-item">Person2</a></li>
+                <li><a href="p3.html" class="menu-item">Person 3</a></li>
+                <li><a href="p4.html" class="menu-item">Person4</a></li>
+                <li><a href="p5.html" class="menu-item">Person5</a></li>
+                <li><a href="javascript:window.history.back()" class=" menu-item">Previous Page</a></li>
+
+
             </ul>
         </nav>
 
-        <h1>John Doe</h1> <!-- Name of the person, change as needed -->
         <div class=" containerB">
-            <h1> Leo</h1>
-            <h2>Biography and Background</h2>
+            <div class="containerImg">
+                <img src="Images/tony-stark-iron-man.jpg" width="300" height="150" />
+            </div>
+            <h1>Biography and Background</h1>
+
             <p> Lives in Vosloo</p>
+            <br />
+            <br />
 
         </div>
         <div class=" containerH">
+            <div class="containerImg2">
+                <img src="Images/Don-cheadle-as-rhodey-Cropped.jpg" width="300" height="150" />
+            </div>
             <h1>Hobbies</h1>
             <p> smoke jjnibhenej</p>
 
         </div>
         <div class=" containerM">
-            <h1>Modules</h1>
-            <p> smoke jjnibhenej</p>
+            
+            <p>
+                <div class="table-container">
+                    <h1>Modules</h1>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Modules Semester 1</th>
+                                <th>Modules Semester 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CS101: Introduction to Computer Science</td>
+                                <td>CS201: Data Structures</td>
+                            </tr>
+                            <tr>
+                                <td>MA102: Mathematics for Computing</td>
+                                <td>MA202: Advanced Mathematics</td>
+                            </tr>
+                            <tr>
+                                <td>EN103: English Communication</td>
+                                <td>PH204: Physics for Computing</td>
+                            </tr>
+                            <tr>
+                                <td>HIST104: History of Computing</td>
+                                <td>STAT205: Statistics</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </p>
 
         </div>
     </header>

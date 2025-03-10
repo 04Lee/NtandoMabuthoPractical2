@@ -148,10 +148,23 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML\Images\Anthony-Mackie-Captain-America-4.jpg" />
+    <Content Include="HTML\Images\antman-and-the-wasp-marvel-4.jpg" />
+    <Content Include="HTML\Images\black-widow-1.jpg" />
+    <Content Include="HTML\Images\Don-cheadle-as-rhodey-Cropped.jpg" />
+    <Content Include="HTML\Images\hawkeye.jpg" />
+    <Content Include="HTML\Images\peter-parker-Cropped.jpg" />
+    <Content Include="HTML\Images\steve-rogers.jpg" />
+    <Content Include="HTML\Images\The-Incredible-Hulk.jpg" />
+    <Content Include="HTML\Images\thor-lightning.jpg" />
+    <Content Include="HTML\Images\tony-stark-iron-man.jpg" />
+    <Content Include="HTML\Images\Vision-Civil-War-Cropped.jpg" />
+    <Content Include="HTML\Images\Wanda-Scarlet-Witch-Cropped.jpg" />
     <Content Include="HTML\p2.html" />
     <Content Include="HTML\p3.html" />
     <Content Include="HTML\p4.html" />
     <Content Include="HTML\p5.html" />
+    <Content Include="HTML\StyleSheet.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -185,10 +198,10 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\People\StudentDisplay.cshtml" />
+    <Content Include="Views\Home\SimpleStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="HTML\Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
